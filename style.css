@@ -21,11 +21,49 @@
 #heroFondo img {
     width: 100%;
     height: auto;
-    /* margin: 20px; */
+    padding: 18vh 0px;
+}
+.textoCelebre {
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.4), 
+    rgba(0,0,0,0.4)
+    ), url(./assets/textoCelebre.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.textoCelebre p {
+    font-family: Satisfy;
+    font-size: 1.5em;
+    padding: 15vh 0px;
 }
 @media (min-width:600px){
     #heroFondo > img {
-        height: 80vh;
+        height: 90vh;
         width: auto;
     }
+    .textoCelebre p {
+        padding: 20vh 45vh;
+        font-size: 2em;
+    }
+    iframe {
+        width: 640px;
+        height: 1576;
+    }
+}
+.formulario {
+    text-align: center;
+}
+.formulario iframe {
+    margin: 40px 0px;
+}
+.footer {
+    background-color: whitesmoke;
+}
+.footer p {
+    font-family: Satisfy;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 30px 0px;
 }
