@@ -61,6 +61,15 @@
     font-family: Satisfy;
     padding: 20px 0px;
 }
+.ubicatex {
+    background-color: burlywood;
+}
+.ubicatex h1 {
+    text-align: center;
+    font-family: Satisfy;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
 .formulario {
     text-align: center;
 }
