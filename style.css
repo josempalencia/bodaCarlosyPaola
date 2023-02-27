@@ -154,6 +154,9 @@
 }
 .formulario {
     text-align: center;
+    background-image: url(./assets/fondoflores.png);
+    background-position: center center;
+    background-size: cover;
 }
 .formulario iframe {
     padding-top: 100px;
