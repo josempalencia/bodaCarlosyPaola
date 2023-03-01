@@ -6,3 +6,7 @@ function scrollFunction() {
         document.getElementById("botonConfirma").style.opacity = "0";
     }
 }
+let myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+    keyboard: false
+  })
+  myModal.show()
