@@ -373,4 +373,11 @@ const listaInvitados = [
   
   // ejemplo de cómo se puede llamar la función para actualizar el modal
   actualizarModal(57); // mostrará los datos del primer invitado
+
+  const urlParams = new URLSearchParams(window.location.search);
+const invitadoId = urlParams.get('id');
+
+function actualizarModal(idInvitado) {
+    // Lógica para cargar los datos del invitado con el ID correspondiente
+  }
   
