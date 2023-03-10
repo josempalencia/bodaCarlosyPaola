@@ -1,0 +1,22 @@
+{
+  "name": "bodacarlosypaola",
+  "version": "1.0.0",
+  "description": "excelAjson",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josempalencia/bodaCarlosyPaola.git"
+  },
+  "author": "JoseMPalencia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josempalencia/bodaCarlosyPaola/issues"
+  },
+  "homepage": "https://github.com/josempalencia/bodaCarlosyPaola#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
