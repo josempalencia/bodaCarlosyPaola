@@ -365,7 +365,7 @@ const listaInvitados = [
   
   // función para actualizar el contenido del modal con los datos de un invitado específico
   function actualizarModal(idInvitado) {
-    const invitado = listaInvitados.find(inv => inv.ID_Invitado === idInvitado);
+    const invitado = listaInvitados.find(inv => inv.ID_Invitado === Number(idInvitado));
     document.getElementById('nombreInvitado').textContent = invitado.nombre_Invitado;
     document.getElementById('acompanante').textContent = invitado.Acompanante;
     document.getElementById('cupos').textContent = invitado.Pases;
