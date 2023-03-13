@@ -95,7 +95,7 @@ const listaInvitados = [
         "ID_Invitado": 14,
         "nombre_Invitado": "José María Palencia",
         "Acompanante": ",",
-        "Pases": 1
+        "Pases": 2
        },
        {
         "ID_Invitado": 15,

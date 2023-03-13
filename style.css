@@ -163,7 +163,16 @@
 .modal-content h3 {
     font-family: Satisfy;
 }
-.modal-body p {
+/* .modal-body p {
+    font-weight: bold;
+} */
+#nombreInvitado {
+    font-weight: bold;
+}
+#acompanante {
+    font-weight: bold;
+}
+#cupos {
     font-weight: bold;
 }
 .formulario {
