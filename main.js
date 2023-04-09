@@ -369,26 +369,38 @@ function actualizarModal(idInvitado) {
     document.getElementById('nombreInvitado').textContent = invitado.nombre_Invitado;
     document.getElementById('acompanante').textContent = invitado.Acompanante;
     document.getElementById('cupos').textContent = invitado.Pases;
-  }
-  
-  const parametros = new URLSearchParams(window.location.search);
-  const idInvitado = parametros.get('id');
-  localStorage.setItem('idOriginal', idInvitado);
-  actualizarModal(idInvitado);
-  
-  // evento hashchange para actualizar el modal cuando cambie la URL
-  window.addEventListener('hashchange', function() {
+}
+
+const parametros = new URLSearchParams(window.location.search);
+const idInvitado = parametros.get('id');
+localStorage.setItem('idOriginal', idInvitado);
+actualizarModal(idInvitado);
+
+// evento hashchange para actualizar el modal cuando cambie la URL
+window.addEventListener('hashchange', function() {
     const idOriginal = localStorage.getItem('idOriginal');
     if (idOriginal) {
-      actualizarModal(idOriginal);
+        actualizarModal(idOriginal);
     }
-  });
-  
-  // evento load para actualizar el modal cuando se cargue la página
-  window.addEventListener('load', function() {
+});
+
+// evento load para actualizar el modal cuando se cargue la página
+window.addEventListener('load', function() {
     const idOriginal = localStorage.getItem('idOriginal');
     if (idOriginal) {
-      actualizarModal(idOriginal);
+        actualizarModal(idOriginal);
+    } else {
+        const ultimoInvitado = localStorage.getItem('ultimoInvitado');
+        if (ultimoInvitado) {
+            actualizarModal(ultimoInvitado);
+        }
     }
-  });
-  
+});
+
+// evento click en el botón de confirmar para guardar el último invitado seleccionado
+document.getElementById('botonConfirmar').addEventListener('click', function() {
+    const idOriginal = localStorage.getItem('idOriginal');
+    if (idOriginal) {
+        localStorage.setItem('ultimoInvitado', idOriginal);
+    }
+});
