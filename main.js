@@ -377,3 +377,9 @@ const listaInvitados = [
   localStorage.setItem('idOriginal',idInvitado);
   actualizarModal(idInvitado);
   
+  window.addEventListener('load', function() {
+    const idOriginal = localStorage.getItem('idOriginal');
+    if (idOriginal) {
+      actualizarModal(idOriginal);
+    }
+  });
