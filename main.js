@@ -363,9 +363,8 @@ const listaInvitados = [
        }
   ];
   
-  // función para actualizar el contenido del modal con los datos de un invitado específico
-  function actualizarModal(idInvitado) {
-    const idOriginal = localStorage.getItem('idOriginal');
+// función para actualizar el contenido del modal con los datos de un invitado específico
+function actualizarModal(idInvitado) {
     const invitado = listaInvitados.find(inv => inv.ID_Invitado === Number(idInvitado));
     document.getElementById('nombreInvitado').textContent = invitado.nombre_Invitado;
     document.getElementById('acompanante').textContent = invitado.Acompanante;
@@ -374,12 +373,22 @@ const listaInvitados = [
   
   const parametros = new URLSearchParams(window.location.search);
   const idInvitado = parametros.get('id');
-  localStorage.setItem('idOriginal',idInvitado);
+  localStorage.setItem('idOriginal', idInvitado);
   actualizarModal(idInvitado);
   
+  // evento hashchange para actualizar el modal cuando cambie la URL
+  window.addEventListener('hashchange', function() {
+    const idOriginal = localStorage.getItem('idOriginal');
+    if (idOriginal) {
+      actualizarModal(idOriginal);
+    }
+  });
+  
+  // evento load para actualizar el modal cuando se cargue la página
   window.addEventListener('load', function() {
     const idOriginal = localStorage.getItem('idOriginal');
     if (idOriginal) {
       actualizarModal(idOriginal);
     }
   });
+  
