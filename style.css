@@ -135,6 +135,10 @@
     height: auto;
     margin: 20px 0px;
 }
+.tipoRegalos p {
+    text-align: justify;
+    margin: 20px;
+}
 .codigoVestuario {
     padding-bottom: 30px;
     margin-bottom: 20px;
