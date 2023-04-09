@@ -400,6 +400,5 @@ document.getElementById('botonConfirmar').addEventListener('click', function() {
     const idOriginal = localStorage.getItem('idOriginal');
     if (idOriginal) {
         localStorage.setItem('ultimoInvitado', idOriginal);
-        localStorage.removeItem('idOriginal');
     }
 });
