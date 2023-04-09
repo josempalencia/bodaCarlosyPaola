@@ -360,6 +360,156 @@ const listaInvitados = [
         "nombre_Invitado": "Adrian Boada",
         "Acompanante": ",",
         "Pases": 1
+       },
+       {
+        "ID_Invitado": 59,
+        "nombre_Invitado": "Cenobia Rugeles",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 60,
+        "nombre_Invitado": "Ana Cecilia Angulo",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 61,
+        "nombre_Invitado": "Andrea Vanessa Perez",
+        "Acompanante": " y esposo,",
+        "Pases": 2
+       },
+       {
+        "ID_Invitado": 62,
+        "nombre_Invitado": "Antonio Vivas",
+        "Acompanante": " y familia,",
+        "Pases": 4
+       },
+       {
+        "ID_Invitado": 63,
+        "nombre_Invitado": "Alvaro Vivas",
+        "Acompanante": " y familia,",
+        "Pases": 3
+       },
+       {
+        "ID_Invitado": 64,
+        "nombre_Invitado": "Jorge Vivas",
+        "Acompanante": " y esposa,",
+        "Pases": 2
+       },
+       {
+        "ID_Invitado": 65,
+        "nombre_Invitado": "Alba Vivas",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 66,
+        "nombre_Invitado": "Araceli Mendez",
+        "Acompanante": " e Hija,",
+        "Pases": 2
+       },
+       {
+        "ID_Invitado": 67,
+        "nombre_Invitado": "Verónica Rodríguez",
+        "Acompanante": "y familia,",
+        "Pases": 3
+       },
+       {
+        "ID_Invitado": 68,
+        "nombre_Invitado": "Liz Ordoñez",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 69,
+        "nombre_Invitado": "Emma Yuliana",
+        "Acompanante": " y familia,",
+        "Pases": 6
+       },
+       {
+        "ID_Invitado": 70,
+        "nombre_Invitado": "Gabriela Borrero",
+        "Acompanante": " y familia,",
+        "Pases": 4
+       },
+       {
+        "ID_Invitado": 71,
+        "nombre_Invitado": "Carmen Vivas",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 72,
+        "nombre_Invitado": "Laura Hernandez",
+        "Acompanante": " y familia,",
+        "Pases": 3
+       },
+       {
+        "ID_Invitado": 73,
+        "nombre_Invitado": "Maria José González",
+        "Acompanante": " y esposo,",
+        "Pases": 2
+       },
+       {
+        "ID_Invitado": 74,
+        "nombre_Invitado": "Hermana Marianela Ramírez",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 75,
+        "nombre_Invitado": "Richard Cañas",
+        "Acompanante": " y familia,",
+        "Pases": 3
+       },
+       {
+        "ID_Invitado": 76,
+        "nombre_Invitado": "Maria Varela",
+        "Acompanante": " y esposo,",
+        "Pases": 2
+       },
+       {
+        "ID_Invitado": 77,
+        "nombre_Invitado": "Henry Coraspe",
+        "Acompanante": " y familia,",
+        "Pases": 9
+       },
+       {
+        "ID_Invitado": 78,
+        "nombre_Invitado": "Raixy Bueno",
+        "Acompanante": " y familia,",
+        "Pases": 3
+       },
+       {
+        "ID_Invitado": 79,
+        "nombre_Invitado": "Osiris Cardenas",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 80,
+        "nombre_Invitado": "Antonino Montero",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 81,
+        "nombre_Invitado": "Franklyn González ",
+        "Acompanante": " y familia,",
+        "Pases": 3
+       },
+       {
+        "ID_Invitado": 82,
+        "nombre_Invitado": "Omaira González ",
+        "Acompanante": ",",
+        "Pases": 1
+       },
+       {
+        "ID_Invitado": 83,
+        "nombre_Invitado": "Franklyn Valero",
+        "Acompanante": " y esposa,",
+        "Pases": 2
        }
   ];
   
