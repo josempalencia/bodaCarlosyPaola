@@ -510,6 +510,12 @@ const listaInvitados = [
         "nombre_Invitado": "Franklyn Valero",
         "Acompanante": " y esposa,",
         "Pases": 2
+       },
+       {
+        "ID_Invitado": 84,
+        "nombre_Invitado": "Luz Elianna Duran",
+        "Acompanante": " y familia,",
+        "Pases": 3
        }
   ];
   
