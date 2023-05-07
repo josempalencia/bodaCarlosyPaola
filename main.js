@@ -117,7 +117,7 @@ const listaInvitados = [
        },
        {
         "ID_Invitado": 18,
-        "nombre_Invitado": "Marisa González",
+        "nombre_Invitado": "Maria Isabel González",
         "Acompanante": ",",
         "Pases": 1
        },
@@ -376,25 +376,25 @@ const listaInvitados = [
        {
         "ID_Invitado": 61,
         "nombre_Invitado": "Andrea Vanessa Perez",
-        "Acompanante": " y esposo,",
+        "Acompanante": " y Esposo,",
         "Pases": 2
        },
        {
         "ID_Invitado": 62,
         "nombre_Invitado": "Antonio Vivas",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 4
        },
        {
         "ID_Invitado": 63,
         "nombre_Invitado": "Alvaro Vivas",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 3
        },
        {
         "ID_Invitado": 64,
         "nombre_Invitado": "Jorge Vivas",
-        "Acompanante": " y esposa,",
+        "Acompanante": " y Esposa,",
         "Pases": 2
        },
        {
@@ -412,7 +412,7 @@ const listaInvitados = [
        {
         "ID_Invitado": 67,
         "nombre_Invitado": "Verónica Rodríguez",
-        "Acompanante": "y familia,",
+        "Acompanante": "y Familia,",
         "Pases": 3
        },
        {
@@ -424,13 +424,13 @@ const listaInvitados = [
        {
         "ID_Invitado": 69,
         "nombre_Invitado": "Emma Yuliana",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 6
        },
        {
         "ID_Invitado": 70,
         "nombre_Invitado": "Gabriela Borrero",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 4
        },
        {
@@ -442,13 +442,13 @@ const listaInvitados = [
        {
         "ID_Invitado": 72,
         "nombre_Invitado": "Laura Hernandez",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 3
        },
        {
         "ID_Invitado": 73,
         "nombre_Invitado": "Maria José González",
-        "Acompanante": " y esposo,",
+        "Acompanante": " y Esposo,",
         "Pases": 2
        },
        {
@@ -460,25 +460,25 @@ const listaInvitados = [
        {
         "ID_Invitado": 75,
         "nombre_Invitado": "Richard Cañas",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 3
        },
        {
         "ID_Invitado": 76,
         "nombre_Invitado": "Maria Varela",
-        "Acompanante": " y esposo,",
+        "Acompanante": " y Esposo,",
         "Pases": 2
        },
        {
         "ID_Invitado": 77,
         "nombre_Invitado": "Henry Coraspe",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 9
        },
        {
         "ID_Invitado": 78,
         "nombre_Invitado": "Raixy Bueno",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 3
        },
        {
@@ -496,7 +496,7 @@ const listaInvitados = [
        {
         "ID_Invitado": 81,
         "nombre_Invitado": "Franklyn González ",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 3
        },
        {
@@ -508,13 +508,13 @@ const listaInvitados = [
        {
         "ID_Invitado": 83,
         "nombre_Invitado": "Franklyn Valero",
-        "Acompanante": " y esposa,",
+        "Acompanante": " y Esposa,",
         "Pases": 2
        },
        {
         "ID_Invitado": 84,
         "nombre_Invitado": "Luz Elianna Duran",
-        "Acompanante": " y familia,",
+        "Acompanante": " y Familia,",
         "Pases": 3
        }
   ];

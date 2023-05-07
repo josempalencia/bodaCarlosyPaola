@@ -158,7 +158,7 @@
 #botonConfirma {
     position: fixed;
     right: 15px;
-    bottom: 80px;
+    bottom: 65px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
@@ -209,7 +209,7 @@
     font-size: 1.1em;
     text-align: center;
     margin: 5px 0px;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 .wsp-icon img {
     width: 90px !important;
