@@ -352,7 +352,7 @@ const listaInvitados = [
        {
         "ID_Invitado": 57,
         "nombre_Invitado": "Carlos Rafael",
-        "Acompanante": "y Esposa",
+        "Acompanante": " y Esposa",
         "Pases": 2
        },
        {
@@ -516,7 +516,14 @@ const listaInvitados = [
         "nombre_Invitado": "Luz Elianna Duran",
         "Acompanante": " y Familia,",
         "Pases": 3
+       },
+       {
+        "ID_Invitado": 85,
+        "nombre_Invitado": "Berquis Febres-Cordero",
+        "Acompanante": " y Esposo,",
+        "Pases": 3
        }
+       
   ];
   
 // función para actualizar el contenido del modal con los datos de un invitado específico
