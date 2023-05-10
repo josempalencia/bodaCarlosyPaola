@@ -255,7 +255,7 @@ const listaInvitados = [
        },
        {
         "ID_Invitado": 41,
-        "nombre_Invitado": "Rafel Rivera",
+        "nombre_Invitado": "Rafael Rivera",
         "Acompanante": ",",
         "Pases": 1
        },
@@ -521,7 +521,7 @@ const listaInvitados = [
         "ID_Invitado": 85,
         "nombre_Invitado": "Berquis Febres-Cordero",
         "Acompanante": " y Esposo,",
-        "Pases": 3
+        "Pases": 2
        }
        
   ];
