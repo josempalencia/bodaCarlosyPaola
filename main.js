@@ -405,7 +405,7 @@ const listaInvitados = [
        },
        {
         "ID_Invitado": 66,
-        "nombre_Invitado": "Araceli Mendez",
+        "nombre_Invitado": "Aracely Mendez",
         "Acompanante": " e Hija,",
         "Pases": 2
        },
