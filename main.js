@@ -317,7 +317,7 @@ const listaInvitados = [
         "ID_Invitado": 51,
         "nombre_Invitado": "Amarilis Sánchez",
         "Acompanante": " y Familia,",
-        "Pases": 2
+        "Pases": 3
        },
        {
         "ID_Invitado": 52,
