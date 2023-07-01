@@ -220,8 +220,8 @@ const listaInvitados = [
        {
         "ID_Invitado": 35,
         "nombre_Invitado": "Flor Díaz",
-        "Acompanante": ",",
-        "Pases": 1
+        "Acompanante": "y Esposo,",
+        "Pases": 2
        },
        {
         "ID_Invitado": 36,
@@ -522,6 +522,12 @@ const listaInvitados = [
         "nombre_Invitado": "Berquis Febres-Cordero",
         "Acompanante": " y Esposo,",
         "Pases": 2
+       },
+       {
+        "ID_Invitado": 86,
+        "nombre_Invitado": "Jesús Rodriguez Peinado",
+        "Acompanante": ",",
+        "Pases": 1
        }
        
   ];
