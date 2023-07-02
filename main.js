@@ -220,7 +220,7 @@ const listaInvitados = [
        {
         "ID_Invitado": 35,
         "nombre_Invitado": "Flor Díaz",
-        "Acompanante": "y Esposo,",
+        "Acompanante": " y Esposo,",
         "Pases": 2
        },
        {
