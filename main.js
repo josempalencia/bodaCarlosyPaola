@@ -528,6 +528,12 @@ const listaInvitados = [
         "nombre_Invitado": "Jesús Rodriguez Peinado",
         "Acompanante": ",",
         "Pases": 1
+       },
+       {
+        "ID_Invitado": 87,
+        "nombre_Invitado": "Rafael Isamber",
+        "Acompanante": ",",
+        "Pases": 1
        }
        
   ];
